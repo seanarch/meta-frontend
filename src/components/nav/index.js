@@ -1,16 +1,44 @@
+import logo from "../../assets/logo.jpg";
+import "./style.css";
+
 function Nav() {
   return (
-    <nav>
+    <div className="navbar">
       <meta name="og:nav" />
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservations</li>
-        <li>Order Online</li>
-        <li>Login</li>
+      <img src={logo} alt="Logo" className="logo" />
+      <ul className="nav-links">
+        <li>
+          <a href="#" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            Menu
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            Reservations
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            Order Online
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">
+            Login
+          </a>
+        </li>
       </ul>
-    </nav>
+    </div>
   );
 }
 
