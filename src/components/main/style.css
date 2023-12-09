@@ -1,0 +1,67 @@
+.banner {
+  background-color: #495e57;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  height: 18rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content {
+  flex: 3;
+  margin-left: 25%; /* Adjust the margin as needed */
+}
+
+.title {
+  color: #f4ce14;
+  font-family: "Markazi Text", serif;
+  font-size: 2.5rem;
+  margin: 0; /* Remove top and bottom margin */
+}
+
+.subtitle {
+  color: white;
+  font-family: "Markazi Text", serif;
+  font-size: 2rem;
+  margin: 0; /* Remove top and bottom margin */
+}
+
+p {
+  color: white;
+  font-family: "Karla", serif;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-right: 35%; /* Adjust the margin as needed */
+  padding: 0;
+}
+
+button {
+  background-color: #f4ce14;
+  color: #495e57;
+  font-family: "Karla", serif;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border-radius: 8px;
+}
+
+.image-content {
+  flex: 1;
+  margin-right: 25%;
+  margin-top: auto;
+}
+
+img {
+  width: 100%; /* Adjust the width to fill the container */
+  height: auto;
+  margin-top: auto;
+  margin-bottom: 0;
+  padding: 0;
+  border-radius: 5%;
+}
