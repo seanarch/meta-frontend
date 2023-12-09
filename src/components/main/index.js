@@ -1,7 +1,9 @@
+import "./style.css";
+
 function Main() {
   return (
     <main>
-      <meta name="og:main" />
+      <div className="banner"></div>
       Main
     </main>
   );

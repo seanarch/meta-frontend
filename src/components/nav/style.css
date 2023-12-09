@@ -16,6 +16,8 @@ li {
   align-items: center; /* Center items vertically in the container */
   margin-left: 25%;
   margin-right: 25%;
+  font-family: Karla;
+  font-weight: 600;
 }
 
 /* Style for the logo */
