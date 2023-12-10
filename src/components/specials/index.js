@@ -1,7 +1,7 @@
 import "./style.css";
 import Button from "react-bootstrap/Button";
 
-function Specials() {
+const Specials = () => {
   return (
     <div className="special-content">
       <h1 id="special">This weeks specials!</h1>
@@ -10,6 +10,6 @@ function Specials() {
       </Button>
     </div>
   );
-}
+};
 
 export default Specials;
