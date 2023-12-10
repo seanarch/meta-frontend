@@ -30,7 +30,7 @@ li {
 .nav-links {
   display: flex; /* Use flexbox for navigation links */
   margin-left: auto; /* Push the navigation links to the right */
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 /* Style for each navigation link */
