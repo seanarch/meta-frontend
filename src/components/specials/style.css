@@ -1,0 +1,18 @@
+.special-content {
+  display: flex;
+  margin-left: 25%;
+}
+
+#special {
+  font-family: "Markazi Text", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  margin-top: 5rem;
+}
+
+#onlinemenu {
+  margin-top: 5.5rem;
+  margin-left: 34%;
+}

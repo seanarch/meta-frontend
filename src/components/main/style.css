@@ -3,7 +3,7 @@
   color: white;
   text-align: left;
   padding: 20px;
-  height: 18rem;
+  height: 22rem;
 }
 
 .content {
@@ -31,7 +31,7 @@
   margin: 0; /* Remove top and bottom margin */
 }
 
-p {
+.restaurant-intro {
   color: white;
   font-family: "Karla", serif;
   font-size: 1.5rem;
@@ -41,12 +41,12 @@ p {
   padding: 0;
 }
 
-button {
+.btn-primary {
   background-color: #f4ce14;
   color: #495e57;
   font-family: "Karla", serif;
   font-size: 1.5rem;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 0;
   border-radius: 8px;
 }
@@ -60,7 +60,7 @@ button {
 img {
   width: 100%; /* Adjust the width to fill the container */
   height: auto;
-  margin-top: auto;
+  margin-top: 2rem;
   margin-bottom: 0;
   padding: 0;
   border-radius: 5%;
