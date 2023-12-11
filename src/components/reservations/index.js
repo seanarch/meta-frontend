@@ -1,11 +1,12 @@
 import HeaderElement from "../header/HeaderElement";
+import ReservationPage from "./ReservationPage.js";
 import Footer from "../footer";
 
 const Reservation = () => {
   return (
     <>
       <HeaderElement />
-      <h1>Reservation</h1>
+      <ReservationPage />
       <Footer />
     </>
   );
