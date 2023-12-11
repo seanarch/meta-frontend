@@ -1,48 +1,26 @@
-/* Reset some default styles for the list and anchor elements */
-ul,
-li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.navigation ul {
+  display: flex;
 }
 
-/* Style for the navigation bar */
-.navbar {
-  background-color: white; /* Set the background color */
-  color: #333; /* Set the text color */
-  padding: 20px; /* Add some padding for better visual appearance */
-  display: flex; /* Use flexbox to arrange items horizontally */
-  justify-content: space-between; /* Space items evenly in the container */
-  align-items: center; /* Center items vertically in the container */
-  margin-left: 25%;
-  margin-right: 25%;
-  font-family: Karla;
-  font-weight: 600;
+.navigation ul li {
+  padding: 0 15px;
 }
 
-/* Style for the logo */
-.logo {
-  max-width: 150px; /* Set the maximum width for the logo */
-  height: auto; /* Allow the height to adjust proportionally */
+.navigation ul li a {
+  font-size: smaller;
+  font-weight: 500;
 }
 
-/* Style for the navigation links */
-.nav-links {
-  display: flex; /* Use flexbox for navigation links */
-  margin-left: auto; /* Push the navigation links to the right */
-  margin-top: 40px;
+.navigation ul li a:hover {
+  color: #495e57;
 }
 
-/* Style for each navigation link */
-.nav-link {
-  margin-left: 15px; /* Add some left spacing between links */
-  margin-right: 15px; /* Add some right spacing between links */
-  text-decoration: none; /* Remove default underline on links */
-  color: #333; /* Set the text color for links */
+.navigation ul li .active-links.active {
+  color: #495e57;
 }
 
-/* Add styles for hover effect on navigation links */
-.nav-link:hover {
-  text-decoration: underline; /* Underline on hover */
-  color: #ffc107; /* Change text color on hover */
+@media screen and (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
 }
