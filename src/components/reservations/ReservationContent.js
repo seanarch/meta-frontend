@@ -37,7 +37,7 @@ function ReservationsContent() {
     if (formData.telephone === "") {
       err.telephone = "* Phone number required!";
     } else {
-      let phoneRegex = /^\(\d{3}\) \d{3}-\d{4}$/;
+      let phoneRegex = /^\d{3}\d{3}\d{4}$/;
 
       if (!phoneRegex.test(formData.telephone)) {
         err.telephone = "Telephone number not valid!";

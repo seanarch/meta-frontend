@@ -14,7 +14,7 @@ const schema = yup.object({
     .string()
     .required("Telephone is a required field!")
     .matches(
-      /^\(\d{3}\) \d{3}-\d{4}$/,
+      /^\d{3}\d{3}\d{4}$/,
       "Phone number must match the form 123 456 7890"
     ),
   guests: yup
